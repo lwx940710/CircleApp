@@ -49,7 +49,6 @@ export default class Msg extends Component {
 
   getAudioDuration(url) {
     let cb = (d) => {
-      console.warn('dddd ', d);
       return d;
     }
   }
@@ -184,6 +183,7 @@ let audioContainer = function(isSend, duration) {
     alignItems: alignItem,
     marginRight: 5,
     width: width,
+    height: 10,
   }
 }
 
