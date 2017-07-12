@@ -240,7 +240,7 @@ let audioContainer = function(isSend, duration) {
     alignItems: alignItem,
     marginRight: 5,
     width: width,
-    height: 10,
+    height: 30,
   }
 }
 
